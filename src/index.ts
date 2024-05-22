@@ -5,7 +5,9 @@ export function sayHello(name: string): string {
 
 
 
-  const ap = 12
+  let ap = 12
+
+  
   
 
   return `Hello, ${name}!`
