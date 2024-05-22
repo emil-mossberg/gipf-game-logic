@@ -1,0 +1,24 @@
+{
+  "name": "gipf-game",
+  "version": "1.0.0",
+  "description": "Package containing game logic for GIPF games.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "keywords": [
+    "gipf",
+    "board",
+    "game"
+  ],
+  "author": "Emil Mossberg",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "typescript": "^4.1.3"
+  }
+}
