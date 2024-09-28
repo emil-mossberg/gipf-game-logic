@@ -1,17 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "ESNext", // or specify your target environment
-      "module": "ESNext", // or specify your module system
-      "strict": true,
-      "esModuleInterop": true, // if you want to use ES module syntax
-      "outDir": "dist", // where to output compiled JavaScript files
-      "declaration": true // generate TypeScript declaration files (.d.ts)
-    },
-    "include": [
-      "src/**/*.ts" // path to your TypeScript source files
-    ],
-    "exclude": [
-      "node_modules" // exclude node_modules from compilation
-    ],
-    "watch": true
-  }
+  "compilerOptions": {
+    "target": "ESNext", // or specify your target environment
+    "module": "ESNext", // or specify your module system
+    "strict": true,
+    "esModuleInterop": true, // if you want to use ES module syntax
+    "outDir": "dist", // where to output compiled JavaScript files
+    "declaration": true // generate TypeScript declaration files (.d.ts)
+  },
+  "include": [
+    "src/**/*.ts" // path to your TypeScript source files
+  ],
+  "exclude": [
+    "node_modules" // exclude node_modules from compilation
+  ],
+  "watch": true
+}
