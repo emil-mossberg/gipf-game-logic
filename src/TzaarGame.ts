@@ -92,6 +92,9 @@ const testBoard: TzaarPieceSetup[][] = [
   [4, 2, 3, 3, 0]
 ]
 
+const apa = 4
+
+
 export type TzaarBoardLocation = GameSide | EmptyPosition
 
 export type CapturePieces = [number, number, number, number, number, number]
